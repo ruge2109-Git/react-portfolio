@@ -8,6 +8,7 @@ import {
   html,
   css,
   reactjs,
+  angular,
   redux,
   tailwind,
   nodejs,
@@ -15,14 +16,14 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  modyo,
+  credifamilia,
+  ebs,
+  java,
 } from '../assets';
 
 export const navLinks = [
@@ -41,7 +42,12 @@ export const navLinks = [
 ];
 
 const basicInformation = {
-  description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.`,
+  title: `Hi, I'm `,
+  name: 'Jonathan',
+  email: 'jonathan.ruge.77@gmail.com',
+  subText1: `I specialize in developing efficient `,
+  subText2: `and innovative software solutions.`,
+  description: `Specializing in the development and maintenance of web applications utilizing Angular, Java, React.js, and related technologies. Collaborating with cross-functional teams, including designers, product managers, and developers, to deliver high-quality products. Implementing responsive design and ensuring compatibility across multiple browsers. Actively participating in code reviews and providing constructive feedback to fellow developers.`,
 };
 
 const services = [
@@ -50,16 +56,8 @@ const services = [
     icon: web,
   },
   {
-    title: 'React Native Developer',
-    icon: mobile,
-  },
-  {
     title: 'Backend Developer',
     icon: backend,
-  },
-  {
-    title: 'Content Creator',
-    icon: creator,
   },
 ];
 
@@ -85,8 +83,8 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: 'Redux Toolkit',
-    icon: redux,
+    name: 'Angular',
+    icon: angular,
   },
   {
     name: 'Tailwind CSS',
@@ -97,12 +95,12 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: 'MongoDB',
-    icon: mongodb,
+    name: 'Java',
+    icon: java,
   },
   {
-    name: 'Three JS',
-    icon: threejs,
+    name: 'MongoDB',
+    icon: mongodb,
   },
   {
     name: 'git',
@@ -120,55 +118,43 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'React.js Developer',
-    company_name: 'Starbucks',
-    icon: starbucks,
+    title: 'Software Enginner',
+    company_name: 'Modyo',
+    icon: modyo,
     iconBg: '#383E56',
-    date: 'March 2020 - April 2021',
+    date: 'Sep 2022 - Present',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
+      'Collaborated in developing new functionalities for BCI - Miami',
+      `Developed projects for banking clients, integrating features with hexagonal architecture and different entities.`,
+      `Modeled the CFG-CA backend with hexagonal architecture, unit tests, database management, and endpoints for the frontend.`,
       'Participating in code reviews and providing constructive feedback to other developers.',
     ],
   },
   {
-    title: 'React Native Developer',
-    company_name: 'Tesla',
-    icon: tesla,
+    title: 'Backend Developer',
+    company_name: 'Credifamilia C.F',
+    icon: credifamilia,
     iconBg: '#E6DEDD',
-    date: 'Jan 2021 - Feb 2022',
+    date: 'Feb 2021 - Aug 2022',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      'Developed a solution using Angular, Spring Boot, and PLSQL that increased company funding.',
+      'Reduced daily information migration time from 5 hours to 30 minutes using Spring Boot.',
+      `Improved user experience on the company's main portal, increasing customer satisfaction.`,
+      'Avoided monetary penalties for the company with software created using Spring Boot and Angular.',
+      'Optimized report generation using Excel and VBFA to improve efficiency and accuracy.',
     ],
   },
   {
-    title: 'Web Developer',
-    company_name: 'Shopify',
-    icon: shopify,
+    title: 'Fullstack Developer',
+    company_name: 'Enterprise Business Solutions EBS SAS',
+    icon: ebs,
     iconBg: '#383E56',
-    date: 'Jan 2022 - Jan 2023',
+    date: 'Dec 2019 - Feb 2021',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
-    ],
-  },
-  {
-    title: 'Full stack Developer',
-    company_name: 'Meta',
-    icon: meta,
-    iconBg: '#E6DEDD',
-    date: 'Jan 2023 - Present',
-    points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      'Increased sales by 40% through Java and Angular applications developed with my team.',
+      'Improved software development performance by 30% using agile methodologies like Scrum.',
+      'Migrated obsolete company applications to a more stable tech stack using microservices in Java and Angular.',
+      'Reduced task review time with an interim application designed and developed in Angular and Java.',
     ],
   },
 ];
