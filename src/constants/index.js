@@ -1,7 +1,5 @@
 import {
-  mobile,
   backend,
-  creator,
   web,
   javascript,
   typescript,
@@ -9,21 +7,21 @@ import {
   css,
   reactjs,
   angular,
-  redux,
+  crescendo,
   tailwind,
   nodejs,
   mongodb,
   git,
   figma,
   docker,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
   modyo,
   credifamilia,
   ebs,
   java,
+  kpi,
+  smartlynx,
+  leandro,
+  ecolsi
 } from '../assets';
 
 export const navLinks = [
@@ -161,90 +159,94 @@ const experiences = [
 
 const testimonials = [
   {
-    testimonial: 'I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.',
-    name: 'Sara Lee',
-    designation: 'CFO',
-    company: 'Acme Co',
-    image: 'https://randomuser.me/api/portraits/women/4.jpg',
+    testimonial: 'Excelente persona, recomiendo contratarlo. Nos ha ayudado en problemas que no conocía pero con buen desempeño',
+    name: 'Luis Leandro',
+    designation: 'CEO',
+    company: 'SmartLynx',
+    image: leandro,
   },
   {
-    testimonial: "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: 'Chris Brown',
-    designation: 'COO',
-    company: 'DEF Corp',
-    image: 'https://randomuser.me/api/portraits/men/5.jpg',
+    testimonial: "Excelente persona, es una de las personas más eficientes y dedicadas que he conocido. Si tienen un proyecto no duden en contratarlo, siempre está atento y tiene mucho conocimiento en angular",
+    name: 'Luis Leandro',
+    designation: 'CEO',
+    company: 'SmartLynx',
+    image: leandro,
   },
   {
-    testimonial: "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: 'Lisa Wang',
-    designation: 'CTO',
-    company: '456 Enterprises',
-    image: 'https://randomuser.me/api/portraits/women/6.jpg',
+    testimonial: "Un profesional excepcional, trabaja rápido, comprende las necesidades con facilidad y cuenta con alta disponibilidad",
+    name: 'Rafael Ecolsi',
+    designation: 'Software Developer',
+    company: 'Ecolsi',
+    image: ecolsi,
   },
 ];
 
 const projects = [
   {
-    name: 'Car Rent',
+    name: 'Crescendo',
     description:
-      'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
+      'The web application allows SEFAZ users to manage their users, creating follow-up assessments, process flows using organizational charts, flowcharts, and reports - all in a 100% dynamic way.',
     tags: [
       {
-        name: 'react',
+        name: 'Angular',
         color: 'blue-text-gradient',
       },
       {
-        name: 'mongodb',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'tailwind',
+        name: 'primeNg',
         color: 'pink-text-gradient',
       },
+      {
+        name: 'Bootstrap',
+        color: 'green-text-gradient',
+      },
     ],
-    image: carrent,
+    image: crescendo,
     source_code_link: 'https://github.com/',
   },
   {
-    name: 'Job IT',
+    name: 'SmartLynx',
     description:
-      'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
+      'Web application that allows users to write, customize and download different CV, maintaining a subscription paid by Paypal or credit cards',
     tags: [
       {
-        name: 'react',
+        name: 'Angular',
         color: 'blue-text-gradient',
       },
       {
-        name: 'restapi',
+        name: 'Bootstrap',
         color: 'green-text-gradient',
       },
       {
-        name: 'scss',
+        name: 'Node',
         color: 'pink-text-gradient',
       },
+      {
+        name: 'Mongo',
+        color: 'green-text-gradient',
+      },
     ],
-    image: jobit,
+    image: smartlynx,
     source_code_link: 'https://github.com/',
   },
   {
-    name: 'Trip Guide',
+    name: 'Dashboard KPI',
     description:
-      'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
+      'Web application that allows the user to upload Excel files with different information to generate many indicators. The application saves and generates KPIs on all previously uploaded information. Show tables, charts and comparation about specific ranges',
     tags: [
       {
-        name: 'nextjs',
+        name: 'Angular',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'Bootstrap',
         color: 'green-text-gradient',
       },
       {
-        name: 'css',
+        name: 'Php',
         color: 'pink-text-gradient',
       },
     ],
-    image: tripguide,
+    image: kpi,
     source_code_link: 'https://github.com/',
   },
 ];

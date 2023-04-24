@@ -31,6 +31,13 @@ import carrent from './carrent.png';
 import jobit from './jobit.png';
 import tripguide from './tripguide.png';
 
+import crescendo from './projects/crescendo.png';
+import kpi from './projects/kpi.png';
+import smartlynx from './projects/smartlynx.png';
+
+import leandro from './users/leandro.png'
+import ecolsi from './users/ecolsi.png'
+
 export {
   logo,
   backend,
@@ -61,4 +68,9 @@ export {
   carrent,
   jobit,
   tripguide,
+  crescendo,
+  kpi,
+  smartlynx,
+  leandro,
+  ecolsi
 };
