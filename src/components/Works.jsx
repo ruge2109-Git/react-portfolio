@@ -15,7 +15,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
           scale: 1,
           speed: 450,
         }}
-        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
+        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full h-full"
       >
         <div className="relative w-full h-[230px]">
           <img src={image} alt={name} className="w-full h-full object-cover rounded-2xl" />
@@ -35,7 +35,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
         </div>
 
         <div className="mt-4 flex flex-wrap gap-2">
-          {tags.map(tag => (
+          {tags.map((tag) => (
             <p key={tag.name} className={`text-[14px] ${tag.color}`}>
               #{tag.name}
             </p>
@@ -59,12 +59,9 @@ const Works = () => {
           variants={fadeIn('', '', 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-          standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
-          make a type specimen book. It has survived not only five centuries, but also the leap into electronic
-          typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
-          sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
-          PageMaker including versions of Lorem Ipsum.
+          Following projects showcases my skills and experience through real-world examples of my work. It reflects my
+          ability to solve complex problems, work with different technologies, and manage projects effectively. Each of
+          the projects was deploy in production
         </motion.p>
       </div>
 
